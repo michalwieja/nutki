@@ -51,6 +51,7 @@ header {
     height: 3px;
     margin: 5px;
     background-color: black;
+    transition: .5s;
   }
 }
 
@@ -84,6 +85,21 @@ header {
   .burger {
     display: block;
     cursor: pointer;
+  }
+
+  .burger.active {
+    div:nth-child(1) {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    div:nth-child(2) {
+      opacity: 0;
+      transform: translateX(-10px);
+    }
+
+    div:nth-child(3) {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
   }
 }
 

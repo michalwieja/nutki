@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { Linking } from "react-native";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
@@ -25,7 +26,11 @@ class Header extends React.Component {
     return (
       <header>
         <div className="logo">Nutki</div>
-        <div className="phone">
+        <div
+          className="phone"
+          onClick={() => {
+            Linking.openURL("tel:609043666");
+          }}>
           <FontAwesomeIcon icon={faPhone} /> 609-043-666
         </div>
         <nav className={this.state.navActive ? "nav-active" : null}>
@@ -62,7 +67,9 @@ class Header extends React.Component {
             </li>
           </ul>
         </nav>
-        <div className="burger" onClick={this.handleBurgerClick}>
+        <div
+          className={this.state.navActive ? "burger active" : "burger"}
+          onClick={this.handleBurgerClick}>
           <div className="line1"></div>
           <div className="line2"></div>
           <div className="line3"></div>
