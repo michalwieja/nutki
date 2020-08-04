@@ -43,11 +43,67 @@ header {
   }
 }
 
+.burger {
+  display: none;
+
+  div {
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: black;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  nav {
+    position: absolute;
+    right: 0;
+    height: 90vh;
+    top: 10vh;
+    z-index: 10;
+    background-color: white;
+    transform: translateX(100%);
+    transition: .5s;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+      opacity: 0;
+      transition: 1.5s;
+
+    }
+  }
+
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+.ul-active {
+  opacity: 1;
+}
+
 main {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 90vh;
   flex-grow: 1;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 footer {

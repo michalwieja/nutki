@@ -1,5 +1,6 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
+import About from "./About";
 
 const Main = () => {
   return (
@@ -21,7 +22,7 @@ const Main = () => {
           <h1>zapisy online</h1>{" "}
         </Route>
         <Route path="/">
-          <h1>o nas</h1>{" "}
+          <About />
         </Route>
       </Switch>
     </main>
