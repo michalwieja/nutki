@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/nutki/static/css/main.24f1d3fc.chunk.css",
+    "main.js": "/nutki/static/js/main.c7721947.chunk.js",
+    "main.js.map": "/nutki/static/js/main.c7721947.chunk.js.map",
+    "runtime-main.js": "/nutki/static/js/runtime-main.7c503f79.js",
+    "runtime-main.js.map": "/nutki/static/js/runtime-main.7c503f79.js.map",
+    "static/js/2.41dec0ab.chunk.js": "/nutki/static/js/2.41dec0ab.chunk.js",
+    "static/js/2.41dec0ab.chunk.js.map": "/nutki/static/js/2.41dec0ab.chunk.js.map",
+    "index.html": "/nutki/index.html",
+    "precache-manifest.9bc7d0149f8f15bb839c7a2b6c6e6c7a.js": "/nutki/precache-manifest.9bc7d0149f8f15bb839c7a2b6c6e6c7a.js",
+    "service-worker.js": "/nutki/service-worker.js",
+    "static/css/main.24f1d3fc.chunk.css.map": "/nutki/static/css/main.24f1d3fc.chunk.css.map",
+    "static/js/2.41dec0ab.chunk.js.LICENSE.txt": "/nutki/static/js/2.41dec0ab.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/nutki/static/media/1.180d5916.jpg",
+    "static/media/2.jpg": "/nutki/static/media/2.f7c5bdb2.jpg",
+    "static/media/3.jpg": "/nutki/static/media/3.86f7b7d8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c503f79.js",
+    "static/js/2.41dec0ab.chunk.js",
+    "static/css/main.24f1d3fc.chunk.css",
+    "static/js/main.c7721947.chunk.js"
+  ]
+}
